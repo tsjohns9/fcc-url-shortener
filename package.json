@@ -1,0 +1,15 @@
+{
+  "name": "fcc-url-shortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "author": "Trevor Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
