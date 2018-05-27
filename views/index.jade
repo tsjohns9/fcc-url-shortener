@@ -8,13 +8,13 @@ block content
    p 1) I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
    p 2) When I visit that shortened URL, it will redirect me to my original link.
   h3 Example creation usage:
-  code https://little-url.herokuapp.com/new/https://www.google.com
+  code http://urls-shorten.herokuapp.com/new/https://google.com
   br
-  code https://little-url.herokuapp.com/new/http://foo.com:80
+  code http://urls-shorten.herokuapp.com/new/https://www.google.com
   br
   h3 Example creation output:
-  code { "original_url":"http://foo.com:80", "short_url":"https://little-url.herokuapp.com/8170" }
+  code { "original_url":"https://google.com", "short_url":"http://urls-shorten.herokuapp.com/3041" }
   h3 Usage:
-  code https://little-url.herokuapp.com/2871
+  code http://urls-shorten.herokuapp.com/3041
   h3 Will redirect to:
-  code https://www.google.com/
+  code https://google.com/
