@@ -7,15 +7,15 @@
 ## Example creation usage:
 
 ```js
-/new/https://
-/new/http://
+https://urls-shorten.herokuapp.com/new/https://google.com
+https://urls-shorten.herokuapp.com/new/https://www.google.com
 ```
 
 ## Example creation output:
 
 ```js
 {
-  "original_url":"http://google.com",
+  "original_url":"https://google.com",
   "short_url":"http://urls-shorten.herokuapp.com/3041"
 }
 ```
@@ -23,11 +23,11 @@
 ## Usage:
 
 ```
-http://urls-shorten.herokuapp.com/new/https://google.com
+https://urls-shorten.herokuapp.com/3041
 ```
 
 ### Will redirect to:
 
 ```
-http://urls-shorten.herokuapp.com/3041
+https://google.com
 ```
