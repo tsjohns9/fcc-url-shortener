@@ -4,6 +4,8 @@ const routes = require('./routes/routes');
 const path = require('path');
 const db = require('mongodb');
 
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/urlshortener';
+
 const app = express();
 const PORT = process.env.PORT || 8000;
 
@@ -16,7 +18,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 // connect to the db
-db.MongoClient.connect('mongodb://localhost/urlshortener', (err, db) => {
+db.MongoClient.connect(MONGODB_URI, (err, db) => {
   // checks for errors
   if (err) throw err;
   else {
