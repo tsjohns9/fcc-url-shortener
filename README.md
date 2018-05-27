@@ -15,19 +15,19 @@
 
 ```js
 {
-  "original_url":"http://",
-  "short_url":""
+  "original_url":"http://google.com",
+  "short_url":"http://urls-shorten.herokuapp.com/3041"
 }
 ```
 
 ## Usage:
 
 ```
-https://
+http://urls-shorten.herokuapp.com/new/https://google.com
 ```
 
 ### Will redirect to:
 
 ```
-https://
+http://urls-shorten.herokuapp.com/3041
 ```
